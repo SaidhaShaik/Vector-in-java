@@ -1,0 +1,23 @@
+import java.util.*;
+class TestJavCollection {
+    public static void main(String[] args) {
+        Vector<String> v = new Vector<String>();
+        v.add("Hyderabad");
+        v.add("Banglore");
+        v.add("Chennai");
+        v.add("Mumbai");
+        Iterator<String> itr = v.iterator();
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+    }
+}
+
+
+output :
+Hyderabad
+Banglore
+Chennai
+Mumbai
+
+=== Code Execution Successful ===
